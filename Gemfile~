@@ -42,6 +42,7 @@ gem 'jquery-rails', '2.0.1'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test do
+  gem 'test-unit'
   gem 'rspec-rails', '2.9.0'
   gem 'capybara', '1.1.2'
   gem 'rb-inotify', '0.8.8'
